@@ -54,6 +54,7 @@ Some useful information can be found at [svnbook.red-bean.com](http://svnbook.re
     $ svn update
     $ svn switch https://code.example.com/repo/features/feature_branch
     $ svn merge https://code.example.com/repo/trunk
+    & svn ci -m "Merge trunk in to feature_branch"
 
 ### Git Equivalent
 
