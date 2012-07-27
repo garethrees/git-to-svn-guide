@@ -140,6 +140,12 @@ Some useful information can be found at [svnbook.red-bean.com](http://svnbook.re
 
     $ svn revert . -R
 
+## Merge Conflicts
+
+Accept whatever the current directory structure is at this time
+
+    $ svn resolve --accept working . -R
+
 ## The “Git Way”
 
 ##### Clone Trunk:
