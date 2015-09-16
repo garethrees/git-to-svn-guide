@@ -139,6 +139,11 @@ Some useful information can be found at [svnbook.red-bean.com](http://svnbook.re
 ### Example:
 
     $ svn revert . -R
+    $ svn revert /PATH/TO/FILE
+
+### Git Equivalent
+
+    $ git checkout /PATH/TO/FILE
 
 ## Merge Conflicts
 
