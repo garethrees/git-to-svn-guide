@@ -145,6 +145,31 @@ Some useful information can be found at [svnbook.red-bean.com](http://svnbook.re
 
     $ git checkout /PATH/TO/FILE
 
+
+## List latest revision
+
+    $ svn log
+
+### Exapmle:
+
+    $ svn log /PATH/TO/FILE -v -l3
+
+### Git Equivalent
+
+    $ git log -n 3
+
+## View diff of a commit
+
+    $ svn log --diff
+
+### Example:
+
+    $ svn log -r 42256 --diff
+
+### Git Equivalent
+
+    $ git diff 29461219405dcdee17194d0e3112f160e1345d49
+
 ## Merge Conflicts
 
 Accept whatever the current directory structure is at this time
