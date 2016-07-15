@@ -150,7 +150,7 @@ Some useful information can be found at [svnbook.red-bean.com](http://svnbook.re
 
     $ svn log
 
-### Exapmle:
+### Example:
 
     $ svn log /PATH/TO/FILE -v -l3
 
