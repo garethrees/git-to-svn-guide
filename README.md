@@ -238,8 +238,11 @@ $ git diff 29461219405dcdee17194d0e3112f160e1345d49
 
 # 14. Merge Conflicts
 
-Accept whatever the current directory structure is at this time
+Accept whatever the current directory structure is at this time:
 
+```bash
+$ svn resolve --accept working . -R 
+```
 
 # 15. The “Git Way”
 
