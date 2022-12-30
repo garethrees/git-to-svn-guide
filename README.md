@@ -1,6 +1,6 @@
 # Git to SVN :(
 
-Some useful information can be found at [svnbook.red-bean.com](http://svnbook.red-bean.com)
+Some useful information can be found at [svnbook.red-bean.com](http://svnbook.red-bean.com).
 
 # 1. Create A Local Working Copy
 
